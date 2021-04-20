@@ -96,10 +96,11 @@ public class DoomsdayCalculator {
 		switch (month) {
 		case 1:
 			if (isLeapYear(year)) {
-				doomsdate = 3;
-			} else {
 				doomsdate = 4;
+			} else {
+				doomsdate = 3;
 			}
+			
 			break;
 
 		case 2:
