@@ -1,3 +1,4 @@
+//I am sorry ahead of time
 package ddcalc;
 
 import java.util.Scanner;
@@ -85,6 +86,9 @@ public class DoomsdayCalculator {
 				if (year % 400 == 0) {
 					return true;
 				}
+			}
+			else {
+				return true;
 			}
 		}
 		return false;
